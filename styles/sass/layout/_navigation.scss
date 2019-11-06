@@ -1,0 +1,68 @@
+nav {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: -7.5%;
+    left: 7.5%;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px soliod red;
+
+    .buttonContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        button {
+            background: none;
+            margin: 0;
+            padding: 40px;
+            width: 200px;
+            height: 100px;
+            border: none;
+            background-image: url(../../assets/images/vx01_vx_RGB_Horiz_blk.png);
+            background-position: center;
+            background-size: cover;
+    
+        }
+
+        button:hover {
+            background-image: url(../../assets/images/vx01_vx_RGB_Horiz_grayscale.png);
+        }
+
+    }
+
+    ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+
+        li {
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                color: yellow;
+            }
+        }
+    }
+
+    .visible {
+        height: 25px;
+        padding: 0 10px 5px 10px;
+        transition: .5s;
+    }
+
+}

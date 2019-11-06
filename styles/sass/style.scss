@@ -1,0 +1,13 @@
+@import 'abstracts/setup';
+@import 'abstracts/general';
+
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+@import 'pages/index';
+@import 'pages/portfolio';
+@import 'pages/about';
+@import 'pages/careers';
+@import 'pages/contact';

@@ -1,0 +1,18 @@
+header.portfolio {
+
+    section {
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 150px;
+
+        form {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding-top: 50px;
+        }
+
+    }
+}

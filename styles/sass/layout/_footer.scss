@@ -1,0 +1,17 @@
+footer {
+    
+    section {
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;;
+
+        div {
+            width: 100px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
