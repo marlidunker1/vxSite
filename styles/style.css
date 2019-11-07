@@ -230,13 +230,13 @@ nav .buttonContainer button {
   width: 200px;
   height: 100px;
   border: none;
-  background-image: url(../../../assets/images/vx01_vx_RGB_Horiz_blk.png);
+  background-image: url(../assets/images/vx01_vx_RGB_Horiz_blk.png);
   background-position: center;
   background-size: cover;
 }
 
 nav .buttonContainer button:hover {
-  background-image: url(../../../assets/images/vx01_vx_RGB_Horiz_grayscale.png);
+  background-image: url(../assets/images/vx01_vx_RGB_Horiz_grayscale.png);
 }
 
 nav ul {
